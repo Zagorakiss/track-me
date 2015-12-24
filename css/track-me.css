@@ -1,0 +1,57 @@
+body {
+  background-color: #32cba3;
+}
+
+h2 {
+  text-align: center;
+  font-family: Inconsolata;
+  font-size: 54px;
+  color: #fff;
+}
+
+.cmd {
+  border-top: 2em solid rgba(230, 230, 230, 0.7);
+  box-shadow: 0 0.1em 1em 0 rgba(0, 0, 0, 0.4);
+  position: relative;
+  border-radius: 3px 3px 0 0;
+  background-color: #222;
+  height: 340px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cmd:before {
+  display: block;
+  position: absolute;
+  content: '';
+  top: -1.25em;
+  left: 1em;
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 50%;
+  background-color: #f44;
+  box-shadow: 0 0 0 2px #f44, 1.5em 0 0 2px #9b3, 3em 0 0 2px #fb5;
+}
+
+.cmd > * {
+  display: block;
+}
+
+p {
+  color: lime;
+  font-family: Ubuntu Mono;
+  font-size: 16px;
+  margin: 10px 0 0 10px;
+}
+
+.scroll {
+  overflow-y: scroll;
+  height: 340px;
+}
+
+
+
+
+.devmuerto-logo-corner{box-sizing:content-box;display:block;position:fixed;top:15px;right:15px;height:73px;width:73px;background-color:#271900;background-image:url(https://raw.githubusercontent.com/Zagorakiss/zagorakiss.github.io/master/assets/devmuerto-logo-codepen.png);opacity:.4;-webkit-transition:opacity .4s ease;transition:opacity .4s ease;border-radius:20px;border:2px dashed orange}.devmuerto-logo-corner:hover{opacity:1;-webkit-animation:rubberBand 1s;animation:rubberBand 1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}@-webkit-keyframes rubberBand{from{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}30%{-webkit-transform:scale3d(1.25,.75,1);transform:scale3d(1.25,.75,1)}40%{-webkit-transform:scale3d(.75,1.25,1);transform:scale3d(.75,1.25,1)}50%{-webkit-transform:scale3d(1.15,.85,1);transform:scale3d(1.15,.85,1)}65%{-webkit-transform:scale3d(.95,1.05,1);transform:scale3d(.95,1.05,1)}75%{-webkit-transform:scale3d(1.05,.95,1);transform:scale3d(1.05,.95,1)}to{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}}@keyframes rubberBand{from{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}30%{-webkit-transform:scale3d(1.25,.75,1);transform:scale3d(1.25,.75,1)}40%{-webkit-transform:scale3d(.75,1.25,1);transform:scale3d(.75,1.25,1)}50%{-webkit-transform:scale3d(1.15,.85,1);transform:scale3d(1.15,.85,1)}65%{-webkit-transform:scale3d(.95,1.05,1);transform:scale3d(.95,1.05,1)}75%{-webkit-transform:scale3d(1.05,.95,1);transform:scale3d(1.05,.95,1)}to{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}}
+
